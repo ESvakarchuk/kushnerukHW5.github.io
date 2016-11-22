@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="second_menu">
+            <li>
+                <a class="second_submenu_1" href=""><img src="img/flag.png" alt="flag" class="flag">Minhas Ofertas</a>
+            </li>
+            <li><a class="second_submenu_2" href="">Ola! <span class="text_underline">Entrar</span> ou <span class="text_underline">Cadastre-se</span></a></li>
+        </ul>
+        <ul class="first_menu">
+            <li><a class="first_submenu" href="">Meu YouBike</a></li>
+            <li><a class="first_submenu" href="">Vender</a></li>
+            <li><a class="first_submenu" href="">Forum</a></li>
+            <li><a class="first_submenu" href="">Contato</a></li>
+            <li><a class="first_submenu" href="">Ajuda</a></li>
+        </ul>
+    </nav>
+    <div class="form_box">
+        <div class="first_section">
+            <h1 class="form_header">Cadastre-se</h1>
+        </div>
+        <div class="second_section">
+            <div class="fb_button">
+                <a href=""><img src="img/fb-button.gif" alt="facebook button"></a>
+            </div>
+            <p class="OU">OU</p>
+            <form class="registration_form" action="index.html" method="post">
+                <div class="form_field_box no_margin">
+                    <input class="first_name" type="text" name="first_name" placeholder="First Name" autofocus required>
+                </div>
+                <div class="form_field_box">
+                    <input class="last_name" type="text" name="last_name" placeholder="Last Name">
+                </div>
+                <div class="form_field_box">
+                    <input class="email" type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="form_field_box">
+                    <input class="password" type="password" name="password" placeholder="Choose Password" required>
+                </div>
+                <div class="form_field_box">
+                    <input class="password_confirm" type="password" name="password_confirm" placeholder="Password Confirm" required>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="checkbox">
+                    <label class="checkbox_label" for="checkbox">Send me Youbike updates and tips</label>
+                </div>
+                <div class="submit_button_box">
+                    <input class="submit_button" type="submit" value="Create my Account">
+                </div>
+                <div class="agreement_box">
+                    <p class="agreement_text">By clicking the button above, you agree to the Terms of Service<br>Xiew our Privacy Policy.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
